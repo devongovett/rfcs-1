@@ -296,7 +296,7 @@ An alternative which would allow this proposal to be fully implemented in user s
 
 # Adoption strategy
 
-`FocusScope` and `FocusManager` are opt-in APIs which users can chose to use or not. No code changes to existing React applications are required when upgrading to a version that supports these APIs.
+`FocusScope` and `FocusManager` are opt-in APIs which users can choose to use or not. No code changes to existing React applications are required when upgrading to a version that supports these APIs.
 
 The behavior of tabbing through applications that utilize portals would change, however. If applications currently rely on the existing behavior, it could be considered a “breaking” change.
 
